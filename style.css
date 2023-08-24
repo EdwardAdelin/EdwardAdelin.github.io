@@ -8,12 +8,31 @@
     height: 600px;
 }
 .controls{
-    position: absolute;
-    z-index: 10;
+    /*position: fixed;*/
+    /*z-index: 10;
     top: 50px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%);*/
+    text-align: center;
+    padding: 30px;
 }
 .controls, select, option{
     font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+    background-color:white;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: white;
+}
+#canvas1{
+    display: inline-block;
+    
 }
